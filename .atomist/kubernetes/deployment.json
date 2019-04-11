@@ -1,0 +1,25 @@
+{
+  "spec": {
+    "template": {
+      "spec": {
+        "containers": [
+          {
+            "securityContext": {
+              "allowPrivilegeEscalation": false,
+              "privileged": false,
+              "readOnlyRootFilesystem": true
+            }
+          }
+        ],
+        "securityContext": {
+          "fsGroup": 1001,
+          "runAsGroup": 1001,
+          "runAsNonRoot": true,
+          "runAsUser": 1001,
+          "supplementalGroups": [],
+          "sysctls": []
+        }
+      }
+    }
+  }
+}
