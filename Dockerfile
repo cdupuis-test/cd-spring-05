@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:8@sha256:4355999bcc6d1f2e40f7b7fde47bd6fd94d508b26b7d0e7ea8ae453627e185ab
 
 ENV DUMB_INIT_VERSION=1.2.2
 
